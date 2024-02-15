@@ -11,7 +11,6 @@
 <style>
 .section-one {
   width: auto;
-  height: 100%;
   flex-shrink: 0;
   overflow: hidden;
 }

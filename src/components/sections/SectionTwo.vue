@@ -25,8 +25,10 @@ const todayDate = ref(
 <style>
 .section-two {
   width: auto;
-  height: 100%;
   flex-shrink: 0;
   overflow: hidden;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <section class="section-four justify-center flex items-center h-screen flex-col">
-    <div class="grid grid-cols-2 w-4/5">
-      <div class="text-[40px] z-20 flex h-screen justify-center items-center">
+  <section class="section-four justify-center flex items-center flex-col py-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 md:w-4/5">
+      <div class="text-[30px] md:text-[40px] z-20 flex h-screen justify-center items-center text-center">
         I'm so thankful that you came into my life. Words can't express how happy I am to have you,
         my love.
       </div>
@@ -14,9 +14,9 @@
             :src="`/duo-${index}.svg`"
             height="300"
           />
-          <img src="/sunflower.svg" class="absolute top-[30] left-[0]" alt="">
         </div>
       </div>
+      <img src="/sunflower.svg" class="absolute top-[30] left-0 z-10" alt="">
     </div>
   </section>
 </template>
@@ -25,6 +25,7 @@
 <style>
 .section-four {
   width: auto;
+  height: auto;
   flex-shrink: 0;
   overflow: hidden;
   animation: fade-in linear forwards;

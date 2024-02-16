@@ -1,7 +1,7 @@
 <template>
-  <section class="section-one justify-center flex items-center h-screen flex-col">
-    <div class="text-[50px] text-center w-4/5">
-      Happy Birthday my Love, May your day be filled with joy, laughter, and all the wonderful
+  <section class="section-one justify-center flex items-center flex-col h-screen">
+    <div class="text-[30px] md:text-[50px] text-center w-4/5">
+      Happy Birthday, my Love. May your day be filled with joy, laughter, and all the wonderful
       things life has to offer. Wishing you a fantastic year ahead!
     </div>
   </section>

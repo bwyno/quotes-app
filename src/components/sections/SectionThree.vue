@@ -1,9 +1,9 @@
 <template>
   <section
     id="nica"
-    class="section-three flex flex-col gap-[80px] h-screen justify-center items-center"
+    class="section-three flex flex-col gap-[80px] justify-center items-center py-20"
   >
-    <div class="text-center w-4/5 text-[40px]">
+    <div class="text-center w-4/5 text-[25px] md:text-[40px]">
       <i>
         "Through the years, you've blossomed into an extraordinary woman, radiating strength, grace,
         and compassion. You deserve nothing less than the universe itself."
@@ -13,7 +13,7 @@
       <img
         v-for="index in 8"
         :key="index"
-        class="set-1 shrink-0 h-[300px] w-[300px]"
+        class="set-1 shrink-0 h-[200px] w-[200px] md:h-[300px] md:w-[300px]"
         :src="`/solo-${index}.svg`"
         height="300"
       />
@@ -22,7 +22,7 @@
       <img
         v-for="index in 8"
         :key="index"
-        class="set-2 shrink-0 h-[300px] w-[300px]"
+        class="set-2 shrink-0 h-[200px] w-[200px] md:h-[300px] md:w-[300px]"
         :src="`/solo-${index + 8}.svg`"
         height="300"
       />
@@ -33,7 +33,7 @@
 <style>
 .section-three {
   width: auto;
-  /* height: auto; */
+  height: auto;
   flex-shrink: 0;
   overflow: hidden;
   animation: fade-in linear forwards;
